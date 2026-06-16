@@ -1,0 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Saif & Pato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="pato.html">Pato</a>
+    <a href="saif.html">Saïf</a>
+</nav>
+
+<h1>Bienvenue chez Saif & Pato - Les Rappeurs du 84</h1>
+
+<p>Clique sur l'image pour l'agrandir</p>
+
+
+<img src="duo.jpg" alt="Duo" onclick="agrandirImage(this)">
+<img src="duo_2.jpg" alt="Concert" onclick="agrandirImage(this)">
+
+<br><br>
+
+<p>Saïf & Pato sont deux rappeurs originaires du Vaucluse (84),
+issus de la scène rap indépendante locale.
+
+Ils construisent chacun un univers bien distinct,
+tout en partageant une même identité artistique sombre et authentique.
+
+Saïf développe un rap mélancolique et réfléchi,
+avec des textes travaillés, une atmosphère froide
+et une approche très introspective de la vie et de la rue.
+
+Pato, lui, adopte un style plus direct et street,
+marqué par des productions brutes, un flow efficace
+et des récits centrés sur le quotidien et les tentations.
+
+Ensemble, ils forment un duo complémentaire,
+souvent réunis sur des morceaux où leurs styles se mélangent
+pour créer une ambiance forte et cohérente.
+
+Ce site permet de découvrir leurs projets, leurs sons principaux
+et l’évolution de leur univers musical au sein du 84.</p>
+
+<a href="https://www.youtube.com" target="_blank">
+    Voir leurs sons
+</a>
+
+<h2>Contact</h2>
+
+<form onsubmit="envoyer(); return false;">
+    <input type="text" placeholder="Votre nom" required>
+    <br><br>
+    <input type="email" placeholder="Votre email" required>
+    <br><br>
+    <textarea placeholder="Votre message"></textarea>
+    <br><br>
+    <button type="submit">Envoyer</button>
+</form>
+
+<br>
+
+<button onclick="modeSombre()">Mode Sombre</button>
+
+<footer>
+    © Site NSI 1ère - Saif & Pato
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
